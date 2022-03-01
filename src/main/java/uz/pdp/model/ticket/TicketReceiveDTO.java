@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class TicketReceiveDTO {
-    private long statusId;
+    private Long statusId;
 
-    private long bookingId;
+    private Long bookingId;
 
-    private long passengerId;
+    private Long passengerId;
 
-    private long seatId;
+    private Long seatId;
 }

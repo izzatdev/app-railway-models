@@ -11,9 +11,9 @@ public class PriceReceiveDTO {
 
     private double distance;
 
-    private long fromStationId;
+    private Long fromStationId;
 
-    private long toStationId;
+    private Long toStationId;
 
-    private long wagonId;
+    private Long wagonId;
 }

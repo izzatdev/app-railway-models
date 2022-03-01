@@ -25,5 +25,5 @@ public class PassengerReceiveDTO {
 
     private Date birthDate;
 
-    private long countryId;
+    private Long countryId;
 }

@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import uz.pdp.model.wagon.WagonCreateDTO;
 
 import javax.validation.constraints.NotNull;
+import java.util.List;
 import java.util.Set;
 
 @AllArgsConstructor
@@ -19,5 +20,5 @@ public class TrainCreatedto {
     private double speed;
 
     @NotNull(message = "wagons may not be empty")
-    private Set<WagonCreateDTO> wagons;
+    private List<WagonCreateDTO> wagons;
 }

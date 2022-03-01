@@ -12,6 +12,6 @@ public class CountryCreateDto {
     @NotBlank(message = "name may not be empty")
     private String name;
 
-    @NotBlank(message = "name may not be empty")
-    private String districtName;
+//    @NotBlank(message = "name may not be empty")
+//    private String districtName;
 }

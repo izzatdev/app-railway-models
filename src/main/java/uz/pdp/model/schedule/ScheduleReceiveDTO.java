@@ -15,9 +15,9 @@ public class ScheduleReceiveDTO {
 
     private LocalDateTime arrivalTime;
 
-    private long fromStationId;
+    private Long fromStationId;
 
-    private long toStationId;
+    private Long toStationId;
 
-    private long trainId;
+    private Long trainId;
 }

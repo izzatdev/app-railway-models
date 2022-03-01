@@ -1,4 +1,5 @@
 package uz.pdp.model.user;
+
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -13,47 +14,50 @@ import org.hibernate.validator.constraints.NotBlank;
 @NoArgsConstructor
 @Data
 public class UserReceiveDTO {
+    private long id;
     private String email;
 
+    private String password;
+
     @Size(min = 13, max = 14)
-    @NotNull
-    @JsonProperty("phone_number")
+  //  @NotNull
     private String phoneNumber;
 
-    @NotBlank(message = "first name must not be empty")
+    //@NotBlank(message = "first name must not be empty")
     @JsonProperty("first_name")
     private String firstName;
 
-    @NotBlank(message = "last name must not be empty")
+   // @NotBlank(message = "last name must not be empty")
     @JsonProperty("last_name")
     private String lastName;
 
     private String fatherName; //patronymic
 
-    @NotNull
+  //  @NotNull
     private String roleName;//enum
 
-    @NotNull
+  //  @NotNull
     private String documentType;//enum
 
-    @NotNull
     private String documentNumber;
 
-    @NotNull
+ //   @NotNull
     private String districtName;
 
-    @NotNull
+  //  @NotNull
     private boolean gender;
 
-    @NotNull
+   // @NotNull
     private Date birthDate;
 
 
     private boolean isActive;
 
-    @NotNull
-    private long countryId;
+  //  @NotNull
+  @JsonProperty("country_id")
+    private Long countryId;
 
-    @NotNull
-    private long districtId;
+  //  @NotNull
+  @JsonProperty("district_id")
+    private Long districtId;
 }
