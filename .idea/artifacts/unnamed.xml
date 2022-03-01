@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="unnamed">
-    <output-path>$PROJECT_DIR$/../app-railway-api/libs</output-path>
-    <root id="archive" name="unnamed.jar">
-      <element id="module-output" name="app-railway-model" />
-    </root>
-  </artifact>
-</component>

@@ -1,19 +1,16 @@
-package uz.pdp.model.wagon;
+package uz.pdp.model.seat;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotNull;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class WagonReceiveDTO {
+public class SeatCreateDto {
+    @NotNull()
     private String type;
-
     private int order_number;
-
-    private int total_seats;
-
-    private int free_seats;
-
-    private int trainId;
 }

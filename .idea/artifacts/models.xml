@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="models">
+    <output-path>$PROJECT_DIR$/../e-ticket/libs</output-path>
+    <root id="archive" name="models.jar">
+      <element id="module-output" name="app-railway-models" />
+    </root>
+  </artifact>
+</component>
