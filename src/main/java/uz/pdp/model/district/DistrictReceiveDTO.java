@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class DistrictReceiveDTO {
     private String name;
-    private long countryId;
+    private Long countryId;
 }

@@ -11,7 +11,7 @@ public class TravelLineReceiveDTO {
 
     private double stayTime;
 
-    private long stationId;
+    private Long stationId;
 
-    private long scheduleId;
+    private Long scheduleId;
 }

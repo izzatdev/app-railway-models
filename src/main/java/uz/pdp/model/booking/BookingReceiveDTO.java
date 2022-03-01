@@ -10,19 +10,19 @@ import java.time.LocalDateTime;
 @Data
 public class BookingReceiveDTO {
 
-    private long statusId;
+    private Long statusId;
 
     private double totalPrice;
 
     private double singlePrice;
 
-    private long userId;
+    private Long userId;
 
-    private long scheduleId;
+    private Long scheduleId;
 
-    private long fromStationId;
+    private Long fromStationId;
 
-    private long toStationId;
+    private Long toStationId;
 
     private LocalDateTime startTime;
 
