@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class WagonResponseDto {
 
-    private Long id;
+  //  private Long id;
 
     private String type;
 
