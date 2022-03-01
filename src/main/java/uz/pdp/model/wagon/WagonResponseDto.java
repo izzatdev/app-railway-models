@@ -4,19 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotNull;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class WagonCreateDTO {
+public class WagonResponseDto {
 
-    @NotNull()
+    private Long id;
+
     private String type;
 
-    @NotNull
     private int order_number;
 
-    @NotNull
     private int total_seats;
 }

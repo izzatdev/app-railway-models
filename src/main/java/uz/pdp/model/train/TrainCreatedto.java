@@ -21,4 +21,6 @@ public class TrainCreatedto {
 
     @NotNull(message = "wagons may not be empty")
     private List<WagonCreateDTO> wagons;
+
+
 }
