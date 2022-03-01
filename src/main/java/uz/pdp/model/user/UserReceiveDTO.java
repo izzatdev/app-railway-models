@@ -1,4 +1,5 @@
 package uz.pdp.model.user;
+
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,6 +15,8 @@ import org.hibernate.validator.constraints.NotBlank;
 @Data
 public class UserReceiveDTO {
     private String email;
+
+    private String password;
 
     @Size(min = 13, max = 14)
     @NotNull
