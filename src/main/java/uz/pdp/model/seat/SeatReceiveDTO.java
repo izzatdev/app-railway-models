@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class SeatReceiveDTO {
-    private Long id;
 
     private String type;
 
